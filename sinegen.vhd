@@ -108,7 +108,7 @@ begin
     s_axis_phase_tdata_sine_mid(7 downto 0) <= count(7 downto 0);
     sine_m <= m_axis_data_tdata_sine_mid(17 downto 0);
     s_axis_phase_tdata_sine_low(5 downto 0) <= count(5 downto 0);
---  sine_l <= m_axis_data_tdata_sine_low;
+    sine_l <= m_axis_data_tdata_sine_low;
 
 -- Added by Douang
 ----------------------------------------------------------------------------------------------------
